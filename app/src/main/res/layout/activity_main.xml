@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".bum">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="♥버미의  메모장♥"
+        android:textSize="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/edit_edit"
+            android:layout_width="match_parent"
+            android:hint="메모를 입력하세요"
+            android:layout_height="400dp"/>
+        <Button
+            android:id="@+id/btn_save"
+            android:text="저장하기"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+       <TextView
+           android:id="@+id/text_save"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="28dp"
+           android:text=""/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
